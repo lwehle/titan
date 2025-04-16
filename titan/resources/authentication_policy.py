@@ -26,6 +26,7 @@ class ClientTypes(ParseableEnum):
     SNOWFLAKE_UI = "SNOWFLAKE_UI"
     DRIVERS = "DRIVERS"
     SNOWSQL = "SNOWSQL"
+    SNOWFLAKE_CLI = "SNOWFLAKE_CLI"
 
 
 @dataclass(unsafe_hash=True)
